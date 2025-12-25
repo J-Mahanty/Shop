@@ -14,6 +14,10 @@ body{
     font-family: "Syne Mono", monospace;
 }
 
+/* ************************************* */
+/* HEADER SECTION */
+/* ************************************* */
+
 header{
     background-color: white;
     height: 80px;
@@ -21,6 +25,8 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 
 header .categories{
@@ -73,3 +79,8 @@ header .links span{
 header .links span:hover {
     cursor: pointer;
 }
+
+/* ************************************* */
+/* HERO SECTION */
+/* ************************************* */
+
