@@ -27,6 +27,7 @@ header{
     justify-content: space-between;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 header .categories{
@@ -83,4 +84,54 @@ header .links span:hover {
 /* ************************************* */
 /* HERO SECTION */
 /* ************************************* */
+
+.hero{
+    height: 630px;
+    max-width: 100%;
+    position: relative;
+}
+
+.hero img{
+    position: absolute;
+    height: 600px;
+    width: 1800px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.hero .overlay{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.hero .overlay .best-seller{    
+    padding: 10px;
+    display: flex;
+    margin: 200px 0 10px 0;
+    font-size: 32px;
+    height: auto;
+    max-width: 500px;
+    width: 500px;
+    text-wrap: balance;
+    justify-self: center;
+    justify-content: center;
+    color: white;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+
+.hero .overlay .buy-now{
+    display: flex;
+    font-family: "Syne Mono", monospace;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 36px;
+    font-size: 24px;
+    justify-self: center;
+    border-radius: 10px;
+}
 
