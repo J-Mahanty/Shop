@@ -86,17 +86,15 @@ header .links span:hover {
 /* ************************************* */
 
 .hero{
-    height: 630px;
+    height: 600px;
     max-width: 100%;
     position: relative;
-}
-
-.hero img{
-    position: absolute;
-    height: 600px;
-    width: 1800px;
+    background-image: url("../images/hero_banner.jpg");
     overflow: hidden;
-    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero .overlay{
@@ -150,6 +148,9 @@ header .links span:hover {
 .hero .overlay .buy-now:hover:after{
     width: 75%;
     border-radius: 2px;
+}
+
+.hero .overlay .buy-now:hover {
     cursor: pointer;
 }
 
@@ -160,9 +161,50 @@ header .links span:hover {
 /* ************************************* */
 
 .products{
-    border: 2px solid sandybrown;
+    justify-content: space-evenly;
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: none;
+    flex-wrap: wrap;
 }
 
 .products .card{
+    margin: 50px 10px;
+    height: 500px;
+    min-width: 400px;
+    width: 20%;
     border: 2px solid seagreen;
+}
+
+.products .card .img-container {
+    display: flex;
+    justify-self: center;
+    width: 100%;
+    height: 70%;
+}
+
+.products .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.products .card .product-name{
+    margin: 8px 0 0 4px;
+    font-size: 20px;
+    color: black;
+}
+
+.products .card .price{
+    color: #c82c2c;
+    margin: 0 0 0 4px;
+    font-size: 20px;
+}
+
+.products .card .description{
+    color: grey;
+    margin: 0 0 0 4px;
+    font-size: 18px;
 }
