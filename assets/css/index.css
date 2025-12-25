@@ -133,5 +133,36 @@ header .links span:hover {
     font-size: 24px;
     justify-self: center;
     border-radius: 10px;
+    position: relative;
 }
 
+.hero .overlay .buy-now::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    left: 24px;
+    bottom: 8px;
+    width: 0;
+    background-color: white;
+    transition: width .2s;
+}
+
+.hero .overlay .buy-now:hover:after{
+    width: 75%;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
+/* ************************************* */
+/* PRODUCTS SECTION */
+/* ************************************* */
+
+.products{
+    border: 2px solid sandybrown;
+}
+
+.products .card{
+    border: 2px solid seagreen;
+}
