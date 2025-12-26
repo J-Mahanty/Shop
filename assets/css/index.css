@@ -161,6 +161,7 @@ header .links span:hover {
 /* ************************************* */
 
 .products{
+    padding: 10px;
     justify-content: space-evenly;
     height: auto;
     max-width: 100%;
@@ -206,4 +207,32 @@ header .links span:hover {
     color: grey;
     margin: 0 0 0 4px;
     font-size: 18px;
+}
+
+/* ************************************* */
+/* FOOTER SECTION */
+/* ************************************* */
+
+footer {
+    max-width: 100%;
+    padding: 20px;
+    height: auto;
+    background-color: rgba(124, 123, 123, 0.4);
+}
+
+footer .heading {
+    margin: 20px 60px 8px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+footer p{
+    display: flex;
+    margin: 4px 25px;
+}
+
+footer p span{
+    margin: 0 6px 0 ;
+    display: flex;
+    align-self: baseline;
 }
