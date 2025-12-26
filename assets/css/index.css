@@ -86,7 +86,7 @@ header .links span:hover {
 /* ************************************* */
 
 .hero{
-    height: 600px;
+    height: 450px;
     max-width: 100%;
     position: relative;
     background-image: url("../images/hero_banner.jpg");
