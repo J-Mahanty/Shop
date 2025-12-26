@@ -80,3 +80,38 @@ header .links span{
 header .links span:hover {
     cursor: pointer;
 }
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+/* ************************************* */
+/* oTHER-IMAGES SECTION */
+/* ************************************* */
+
+.other-image{
+    border: 2px solid olive;
+    height: 600px;
+    width: 20%;
+}
+
+/* ************************************* */
+/* MAIN-IMAGE SECTION */
+/* ************************************* */
+
+.main-image{
+    border: 2px solid orchid;
+    height: 600px;;
+    width: 40%;
+}
+
+/* ************************************* */
+/* DETAILS SECTION */
+/* ************************************* */
+
+.details{
+    border: 2px solid darkred;
+    height: 600px;
+    width: 40%;
+}
