@@ -28,6 +28,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+    border-bottom: 2px solid black;
 }
 
 header .categories{
@@ -84,6 +85,9 @@ header .links span:hover {
 .main{
     display: flex;
     flex-direction: row;
+    width: 90%;
+    max-width: 90%;
+    justify-self: center;
 }
 
 /* ************************************* */
@@ -91,9 +95,15 @@ header .links span:hover {
 /* ************************************* */
 
 .other-image{
-    border: 2px solid olive;
     height: 600px;
     width: 20%;
+}
+
+.other-image p{
+    line-height: 10px;
+    font-size: 18px;
+    margin: 50% 0 ;
+    text-align:center;
 }
 
 /* ************************************* */
@@ -101,9 +111,16 @@ header .links span:hover {
 /* ************************************* */
 
 .main-image{
-    border: 2px solid orchid;
     height: 600px;;
     width: 40%;
+}
+
+.main-image img{
+    display: flex;
+    justify-self: center;
+    padding: 50px;
+    width: 80%;
+    height: 80%;
 }
 
 /* ************************************* */
@@ -111,7 +128,15 @@ header .links span:hover {
 /* ************************************* */
 
 .details{
-    border: 2px solid darkred;
     height: 600px;
     width: 40%;
+}
+
+.details .name {
+    margin: 40px 0 20px 0;
+}
+
+.details .description {
+    width: 80%;
+    text-align: justify;
 }
