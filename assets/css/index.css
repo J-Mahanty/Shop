@@ -172,6 +172,11 @@ header .links span:hover {
     flex-wrap: wrap;
 }
 
+.products h2{
+    width: 100%;
+    margin: 0 50px;
+}
+
 .products .card{
     margin: 50px 10px;
     height: 500px;
