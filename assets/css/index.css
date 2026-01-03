@@ -28,6 +28,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+    border: 2px solid black;
 }
 
 header .categories{
@@ -169,6 +170,11 @@ header .links span:hover {
     flex-direction: row;
     overflow: none;
     flex-wrap: wrap;
+}
+
+.products h2{
+    width: 100%;
+    margin: 0 50px;
 }
 
 .products .card{
