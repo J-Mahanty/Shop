@@ -11,7 +11,7 @@ function productNavigationHandler() {
         item.addEventListener("click", function (e) {
             for(const product of products) {
                 if (e.target.classList.contains(product)) {
-                    const path = `/${product}.html`
+                    const path = `/Shop/${product}.html`  //Keep the word "Shop" for as long as you're deploying from github pages.
                     window.location.href= path;
                 }
             }
